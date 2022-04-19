@@ -10,7 +10,7 @@ const firebaseConfig = {
     appId: process.env.RFA_FIREBASE_APP_ID
 };
 
-const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig)
 
-export const auth = app.auth();
-export default app;
+export const auth = app.auth()
+export default app
